@@ -1,0 +1,17 @@
+{
+    "json.validate.enable": true,
+    "json.schemas": [
+        {
+            "fileMatch": [
+                "/module/types/*.json",
+            ],
+            "url": "https://specification.powerd6.org/schemas/type.json"
+        }
+    ],
+    "yaml.schemas": {
+        "https://specification.powerd6.org/schemas/type.json": [
+            "/module/types/*.yaml",
+            "/module/types/*.yml"
+        ]
+    }
+}
