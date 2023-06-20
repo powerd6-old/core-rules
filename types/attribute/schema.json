@@ -29,7 +29,7 @@
             "minItems": 3,
             "maxItems": 3,
             "items": {
-                "description": "The identifiers of the related focuses",
+                "description": "The identifier of the related focus",
                 "type": "string",
                 "pattern": "^[a-zA-Z0-9-_]+$"
             }
