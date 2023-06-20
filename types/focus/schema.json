@@ -1,0 +1,22 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description": "The name of the focus",
+            "type": "string"
+        },
+        "description": {
+            "description": "What this focus represents, how it manifests.",
+            "type": "string"
+        },
+        "example_concept": {
+            "description": "An example of what a character with this focus might be able to do.",
+            "type": "string"
+        }
+    },
+    "required": [
+        "name",
+        "description"
+    ]
+}
