@@ -39,4 +39,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: module
-          path: ./module.json
+          path: module.json
+          retention-days: 2
