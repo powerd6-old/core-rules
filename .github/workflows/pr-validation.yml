@@ -31,8 +31,8 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
       - name: Install powerd6_cli
         run: |-
-          powerd6_cli
-          if [[$? -ne 0]];
+          powerd6_cli; exit_code=$?
+          if [[$exit_code -ne 0]];
           then
             echo "Installing..."
             cargo install --git https://github.com/powerd6/tools --force
