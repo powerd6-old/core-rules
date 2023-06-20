@@ -6,6 +6,12 @@
                 "/module/types/*.json",
             ],
             "url": "https://specification.powerd6.org/schemas/type.json"
+        },
+        {
+            "fileMatch": [
+                "/module/types/*/schema.json",
+            ],
+            "url": "https://json-schema.org/draft/2020-12/schema"
         }
     ],
     "yaml.schemas": {
