@@ -31,7 +31,7 @@ jobs:
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
       - name: Install powerd6_cli
         run: |-
-          cargo install --git https://github.com/powerd6/tools --force
+          powerd6_cli || cargo install --git https://github.com/powerd6/tools --force
       - name: Build Module
         run: |-
           powerd6_cli build ./
