@@ -35,3 +35,8 @@ jobs:
       - name: Build Module
         run: |-
           powerd6_cli build ./
+      - name: Upload Module output
+        uses: actions/upload-artifact@v3
+        with:
+          name: module
+          path: ./module.json
