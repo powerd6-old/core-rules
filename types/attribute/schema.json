@@ -41,5 +41,6 @@
         "abbreviation",
         "description",
         "focuses"
-    ]
+    ],
+    "additionalProperties": false
 }
