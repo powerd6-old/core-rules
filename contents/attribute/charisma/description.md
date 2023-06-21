@@ -1,0 +1,1 @@
+Charisma is related to your ability to enchant, control and manipulate others.

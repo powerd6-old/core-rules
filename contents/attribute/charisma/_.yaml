@@ -1,0 +1,8 @@
+type: attribute
+name: Charisma
+abbreviation: CHA
+die_number: 3
+focuses: 
+    - focus_likeability
+    - focus_persuasion
+    - focus_seduction
