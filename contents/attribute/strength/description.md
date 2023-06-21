@@ -1,0 +1,1 @@
+Strength is related to the physical quality of a character's body.

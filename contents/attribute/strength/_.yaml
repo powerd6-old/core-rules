@@ -1,0 +1,8 @@
+type: attribute
+name: Strength
+abbreviation: STR
+die_number: 2
+focuses: 
+    - focus_power
+    - focus_endurance
+    - focus_toughness
