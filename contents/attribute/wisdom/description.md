@@ -1,0 +1,1 @@
+Wisdom represents the intellectual aspects of a character.
