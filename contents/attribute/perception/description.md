@@ -1,0 +1,1 @@
+Perception is related to a character's ability to capture, feel and process the big and small signs of the environment and people around them.
