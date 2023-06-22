@@ -2,7 +2,7 @@ type: attribute
 name: Agility
 abbreviation: AGI
 die_number: 4
-focuses: 
+focuses:
     - focus_flexibility
     - focus_reflexes
     - focus_speed

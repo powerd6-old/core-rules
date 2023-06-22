@@ -2,7 +2,7 @@ type: attribute
 name: Wisdom
 abbreviation: WIS
 die_number: 5
-focuses: 
+focuses:
     - focus_judgment
     - focus_knowledge
     - focus_mysticism

@@ -2,7 +2,7 @@ type: attribute
 name: Perception
 abbreviation: PER
 die_number: 1
-focuses: 
+focuses:
     - focus_awareness
     - focus_insight
     - focus_instinct

@@ -2,7 +2,7 @@ type: attribute
 name: Dexterity
 abbreviation: DEX
 die_number: 6
-focuses: 
+focuses:
     - focus_coordination
     - focus_grace
     - focus_precision

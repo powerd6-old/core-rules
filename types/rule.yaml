@@ -2,7 +2,7 @@ description: A game rule
 schema:
   $schema: https://json-schema.org/draft/2020-12/schema
   type: object
-  properties: 
+  properties:
     short_rule:
       description: A concise version of the rule
       type: string
