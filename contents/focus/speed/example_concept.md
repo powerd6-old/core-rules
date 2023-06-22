@@ -1,0 +1,1 @@
+You are the chosen one to deliver a message. In combat, you are a flash in your allies eyes, and the last thing your enemies see is you passing them.

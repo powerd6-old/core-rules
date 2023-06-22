@@ -1,0 +1,1 @@
+Is your character a strongman that thinks problems can always be solved with might? Then Power is what you are looking for.

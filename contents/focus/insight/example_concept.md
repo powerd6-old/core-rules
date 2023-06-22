@@ -1,0 +1,1 @@
+Seeing through lies, noticing discomfort and just knowing that one guard is hiding something about the real dangers on the mine are all things a character that relies on insight might do.

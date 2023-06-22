@@ -1,0 +1,1 @@
+You are a sharpshooter capable of hitting the seams in the armour of distant enemies, or you are a sneaky fellow that knows multiple ways of ending someone's life.

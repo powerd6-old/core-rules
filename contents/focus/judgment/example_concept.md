@@ -1,0 +1,2 @@
+You are a genius inventor, as soon as you heard of something you didn't know before, you thought of multiple ways to make it better.
+Your toolkit might be the most advanced thing some ever saw, nothing to say about what you actually do with it.

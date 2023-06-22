@@ -1,0 +1,1 @@
+Being tired is something your character might not experience. Rugged travelers or an indomitable sailor all have the endurance for the task ahead of them.

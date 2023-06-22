@@ -1,0 +1,1 @@
+Rituals, prayer and the occult may be part of your life. You might try to present yourself as a preacher, or as a scarred survivor of what lurks unseen.

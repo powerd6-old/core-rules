@@ -1,0 +1,1 @@
+If your character is the shield of the weak, or can simply shrug off the hardest of hits, then Toughness is in your blood.
