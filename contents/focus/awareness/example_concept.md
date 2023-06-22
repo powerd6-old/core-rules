@@ -1,0 +1,1 @@
+If your character is a detective that unveils mysteries around them, or a hunter that never misses the scent of its prey, awareness is your friend.

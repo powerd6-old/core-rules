@@ -1,0 +1,2 @@
+Your comrades truly believe you liquefy yourself when infiltrating a target location. Only that would explain how you managed to contort and climb into all those little spaces.
+Don't be mistaken, you could be a circus performer, or a lethal martial artist, or both.

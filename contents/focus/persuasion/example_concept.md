@@ -1,0 +1,2 @@
+Logically or illogically, it seems that people always thing you are talking the deepest truths.
+"Maybe he is truly just walking in this back-alley with no intentions of burglary, and that rope is just a fashion statement", thought the guard that found you lurking in the dark back-alley.
