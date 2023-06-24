@@ -1,0 +1,10 @@
+[🎲{{self.die_number}}] {{self.name}} ({{self.abbreviation}})
+
+    {{self.description}}
+
+    Focuses:
+    {{#each self.focuses as |focus_id|}}
+        {{#with (lookup ../module.content [focus_id]) as | focus |}}
+        - see {{focus.name}}
+        {{/with}}
+    {{/each}}
