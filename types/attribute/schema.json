@@ -3,33 +3,33 @@
     "type": "object",
     "properties": {
         "name": {
-            "description": "The name of the attribute",
+            "description": "The name of the attribute.",
             "type": "string"
         },
         "die_number": {
-            "description": "Which number this attribute corresponds to on dice",
+            "description": "Which number this attribute corresponds to on dice.",
             "type": "integer",
             "minimum": 1,
             "maximum": 6
         },
         "abbreviation": {
-            "description": "The abbreviated notation of this attribute",
+            "description": "The abbreviated notation of this attribute.",
             "type": "string",
             "minLength": 3,
             "maxLength": 3
         },
         "description": {
-            "description": "What this attribute represents, how it manifests and what concepts it encompasses",
+            "description": "What this attribute represents, how it manifests and what concepts it encompasses.",
             "type": "string"
         },
         "focuses": {
-            "description": "Which focuses are available in this attribute",
+            "description": "Which focuses are available in this attribute.",
             "type": "array",
             "uniqueItems": true,
             "minItems": 3,
             "maxItems": 3,
             "items": {
-                "description": "The identifier of the related focus",
+                "description": "The identifier of the related focus.",
                 "type": "string",
                 "pattern": "^[a-zA-Z0-9-_]+$"
             }
