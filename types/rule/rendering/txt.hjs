@@ -1,0 +1,12 @@
+{{self.name}}
+
+    {{#each (splitLines self.description)}}
+    {{this}}
+    {{/each}}
+
+    Related rules:
+    {{#each self.related as |related|}}
+        {{#with (lookup ../module.content @key) as | related_rule |}}
+        - [{{related_rule.name}}](/{{@key}}) : {{related.relationship}}
+        {{/with}}
+    {{/each}}
