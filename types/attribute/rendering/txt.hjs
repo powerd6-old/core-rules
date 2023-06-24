@@ -1,6 +1,8 @@
 [🎲{{self.die_number}}] {{self.name}} ({{self.abbreviation}})
 
-    {{self.description}}
+    {{#each (splitLines self.description)}}
+    {{this}}
+    {{/each}}
 
     Focuses:
     {{#each self.focuses as |focus_id|}}
