@@ -1,1 +1,1 @@
-Dexterity relates to how precise and efficient your movements are.
+Dexterity related to the effectiveness of movement.
