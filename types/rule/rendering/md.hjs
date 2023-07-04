@@ -1,10 +1,12 @@
 # {{self.name}}
 
-{{self.description}}
+{{self.rule}}
 
 ## Related rules:
 {{#each self.related as |related|}}
-{{#with (lookup ../module.content @key) as | related_rule |}}
-- [{{related_rule.name}}](/{{@key}}) : {{related.relationship}}
+{{#with (lookup ../module.contents @key) as | related_rule |}}
+### [{{related_rule.name}}](/{{@key}})
+    > {{related_rule.short_rule}}
+    {{related.relationship}}
 {{/with}}
 {{/each}}

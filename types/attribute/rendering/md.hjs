@@ -4,7 +4,7 @@
 
 ## Focuses:
 {{#each self.focuses as |focus_id|}}
-{{#with (lookup ../module.content [focus_id]) as | focus |}}
+{{#with (lookup ../module.contents [focus_id]) as | focus |}}
 - [{{focus.name}}](/{{focus_id}})
 {{/with}}
 {{/each}}
