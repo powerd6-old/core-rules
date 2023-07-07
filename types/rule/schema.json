@@ -36,6 +36,5 @@
         "display_title",
         "short_rule",
         "rule"
-    ],
-    "additionalProperties": false
+    ]
 }

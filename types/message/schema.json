@@ -18,6 +18,5 @@
     "required": [
         "title",
         "body"
-    ],
-    "additionalProperties": false
+    ]
 }
