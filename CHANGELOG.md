@@ -12,3 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Define rules
 - Define attributes & focuses
 - Define messages
+
+### Known issues
+
+- Rules template rendering are using a temporary fix for [sunng87/handlebars-rust#592](https://github.com/sunng87/handlebars-rust/issues/592).
