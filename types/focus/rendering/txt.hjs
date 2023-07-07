@@ -1,0 +1,10 @@
+{{self.name}}
+
+    {{#each (splitLines self.description)}}
+    {{this}}
+    {{/each}}
+
+    
+    {{#each (splitLines self.example_concept)}}
+    {{this}}
+    {{/each}}

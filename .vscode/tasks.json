@@ -2,10 +2,30 @@
     "version": "2.0.0",
     "tasks": [
         {
+            "label": "Install",
+            "type": "shell",
+            "command": "cargo install --git https://github.com/powerd6/tools --force",
+            "problemMatcher": []
+        },
+        {
             "label": "Build",
             "type": "shell",
             "command": "powerd6_cli build ./",
             "problemMatcher": []
         },
+        {
+            "label": "Render",
+            "type": "shell",
+            "command": "powerd6_cli render ./module.json ${input:renderFormat}",
+            "problemMatcher": []
+        },
+    ],
+    "inputs": [
+        {
+            "id": "renderFormat",
+            "description": "The format for rendering the module",
+            "default": "md",
+            "type": "promptString"
+        }
     ]
 }

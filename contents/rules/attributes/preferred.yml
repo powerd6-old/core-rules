@@ -1,0 +1,8 @@
+type: rule
+name: Preferred Attribute
+short_rule: Characters have a single attribute selected as their preferred one.
+rule: |-
+  Preferred Attributes represent a special alignment with a certain attribute's concept.
+
+  Each character can choose exactly one attribute as their preferred one, 
+  affecting the difficulty of tests.

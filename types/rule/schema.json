@@ -1,0 +1,41 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "name": {
+            "description": "The name of the rule.",
+            "type": "string"
+        },
+        "short_rule": {
+            "description": "A concise version of the rule, meant to be used for quick reference.",
+            "type": "string"
+        },
+        "rule": {
+            "description": "The rule in it's entirety, fully described and detailed.",
+            "type": "string"
+        },
+        "related": {
+            "description": "Other rules that are related to this rule.",
+            "type": "object",
+            "patternProperties": {
+                "^[a-zA-Z0-9-_]+$": {
+                    "type": "object",
+                    "properties": {
+                        "relationship": {
+                            "type": "string",
+                            "description": "A short explanation on how the rules are related."
+                        }
+                    },
+                    "required": [],
+                    "additionalProperties": false
+                }
+            }
+        }
+    },
+    "required": [
+        "display_title",
+        "short_rule",
+        "rule"
+    ],
+    "additionalProperties": false
+}

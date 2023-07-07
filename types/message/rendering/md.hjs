@@ -1,0 +1,6 @@
+# {{self.title}}
+{{#if self.subtitle}}
+## {{self.subtitle}}
+{{/if}}
+
+{{self.body}}

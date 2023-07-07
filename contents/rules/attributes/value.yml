@@ -1,0 +1,13 @@
+type: rule
+name: Attribute Values
+short_rule: Attributes have values that can range from -3 to 5.
+rule: |-
+  Attributes are a way to express the unique aspects of characters and describe 
+  what they are capable of.
+
+  Attributes are graded on a scale, based on their Attribute Value (AV for short).
+
+  Attribute Values can range from -3 to +5.
+related:
+  rules_attributes_preferred:
+    relationship: Attributes can be marked as preferred or not.

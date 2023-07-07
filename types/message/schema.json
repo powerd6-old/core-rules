@@ -1,0 +1,23 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "type": "object",
+    "properties": {
+        "title": {
+            "description": "The title that accompanies the message.",
+            "type": "string"
+        },
+        "subtitle": {
+            "description": "The subtitle that accompanies the message, usually clarifying the subject matter.",
+            "type": "string"
+        },
+        "body": {
+            "description": "The contents of the message",
+            "type": "string"
+        }
+    },
+    "required": [
+        "title",
+        "body"
+    ],
+    "additionalProperties": false
+}
