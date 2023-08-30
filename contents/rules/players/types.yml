@@ -1,0 +1,13 @@
+type: rule
+name: Player Types
+short_rule: Players can be either Game Master or Characters.
+rule: |-
+  All players are essential to the experience, however, there are different roles
+  that a group of players must fulfil in order to playing.
+
+  Players can either be taking the role of Characters, or take the role of Game Masters.
+related:
+  rules_players_characters:
+    relationship: Players that controls characters
+  rules_players_game_master:
+    relationship: Players that control the world

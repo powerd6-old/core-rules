@@ -1,0 +1,11 @@
+type: rule
+name: "Characters"
+short_rule: People, Animals, Monsters, etc. Any creature capable of taking actions is a character.
+rule: |-
+  Any creature or being that is capable of taking actions is considered a character.
+
+  Whether they are living, undead, animal, beastly, and/or just people is irrelevant. 
+  Where other games reserve this term to describe player-controlled entities, the term here is applied to anything that can take an action.
+related:
+  rules_players_characters:
+    relationship: Characters can be controlled by players

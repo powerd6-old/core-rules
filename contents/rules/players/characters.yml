@@ -1,0 +1,12 @@
+type: rule
+name: "Players: Character"
+short_rule: Players that control characters inside the game world
+rule: |-
+  When a player takes control of a character, they are taking this role.
+
+  It is the player's responsibility to describe what their characters want, do, and think.
+
+  Embodying your character is not necessary, but interpreting them is highly encouraged.
+related:
+  rules_players_characters:
+    relationship: Characters are controlled by players

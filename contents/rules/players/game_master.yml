@@ -1,0 +1,10 @@
+type: rule
+name: "Players: Game Master"
+short_rule: Players that control the game world
+rule: |-
+  The Game Master is the narrator, puppeteer, and ruler of the world that the characters explore.
+
+  Describing the world, controlling characters, creating the story, and providing mystery, challenge and fun to the other players are the main tasks.
+
+  They also serve as the final voice when it comes to rules arbitration.
+  In the case there are disagreements or multiple interpretations, then the game master is the one that decides.
