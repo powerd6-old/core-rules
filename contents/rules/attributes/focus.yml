@@ -1,0 +1,7 @@
+type: rule
+name: Focuses
+short_rule: Focuses indicate specialization of an attribute
+rule: |-
+  Focuses are nuanced aspects that describe specific and detailed manners in which attributes manifest.
+
+  Each attribute is further detailed by three focuses.
