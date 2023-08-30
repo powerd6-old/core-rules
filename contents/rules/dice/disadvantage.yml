@@ -1,0 +1,10 @@
+type: rule
+name: Rolling with disadvantage
+short_rule: Roll two dice, choose the one that is lest advantageous to you.
+rule: |-
+  If a circumstance or another character is hindering the action, or the action related to a focus which the character does not have, then the roll is done with disadvantage.
+
+  Rolling with disadvantage means that you will roll two dice, then choose the one that is least favorable to you.
+related:
+  rules_attributes_focus:
+    relationship: Focus affect when to roll with disadvantage.

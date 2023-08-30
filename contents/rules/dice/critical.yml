@@ -1,0 +1,14 @@
+type: rule
+name: Critical roll
+short_rule: When a roll is equal to your preferred attribute, then critical effects trigger.
+rule: |-
+  Whenever a dice is rolled and it lands on the same number as your character's preferred attribute, then the roll is considered critical.
+
+  Critical rolls have different effects based on the situation that demanded the roll.
+related:
+  rules_attributes_preferred:
+    relationship: Each character has a single preferred attribute.
+  rules_test_critical:
+    relationship: Amplifies the result of the test.
+  rules_combat_critical:
+    relationship: Alters the damage amount inflicted.

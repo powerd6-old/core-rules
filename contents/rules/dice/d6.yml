@@ -1,0 +1,14 @@
+type: rule
+name: Six-sided dice
+short_rule: Six-sided dice are essential for multiple mechanics.
+rule: |-
+  There are multiple rules that require players to roll dice to determine an outcome.
+
+  Normally, rules will required one dice to be rolled (referred to as 1d6), and the results of the roll are used as-is.
+related:
+  rules_dice_advantage:
+    relationship: Advantages change how many dice and which value is used.
+  rules_dice_disadvantage:
+    relationship: Disadvantages change how many dice and which value is used.
+  rules_dice_critical:
+    relationship: Changes the result of the roll.

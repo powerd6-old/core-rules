@@ -1,0 +1,10 @@
+type: rule
+name: Rolling with advantage
+short_rule: Roll two dice, choose the one that is advantageous to you.
+rule: |-
+  If a circumstance or another character is assisting the action, or the action related to a focus which the character has, then the roll is done with advantage.
+
+  Rolling with advantage means that you will roll two dice, then choose the one that is most favorable to you.
+related:
+  rules_attributes_focus:
+    relationship: Focus affect when to roll with advantage.
