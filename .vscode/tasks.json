@@ -19,6 +19,12 @@
             "command": "powerd6_cli render ./module.json ${input:renderFormat}",
             "problemMatcher": []
         },
+        {
+            "label": "Dev",
+            "type": "shell",
+            "command": "powerd6_cli build ./ && powerd6_cli render ./module.json md",
+            "problemMatcher": []
+        },
     ],
     "inputs": [
         {
