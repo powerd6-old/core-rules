@@ -9,4 +9,4 @@ rule: |-
   Embodying your character is not necessary, but interpreting them is highly encouraged.
 related:
   rules_players_characters:
-    relationship: Characters are controlled by players
+    relationship: Characters are controlled by players.

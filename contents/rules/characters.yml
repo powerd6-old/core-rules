@@ -8,4 +8,4 @@ rule: |-
   Where other games reserve this term to describe player-controlled entities, the term here is applied to anything that can take an action.
 related:
   rules_players_characters:
-    relationship: Characters can be controlled by players
+    relationship: Characters can be controlled by players.

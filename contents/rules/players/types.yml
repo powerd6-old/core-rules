@@ -8,6 +8,6 @@ rule: |-
   Players can either be taking the role of Characters, or take the role of Game Masters.
 related:
   rules_players_characters:
-    relationship: Players that controls characters
+    relationship: Players that controls characters.
   rules_players_game_master:
-    relationship: Players that control the world
+    relationship: Players that control the world.
