@@ -5,8 +5,7 @@
 ## Related rules:
 {{#each self.related as |related|}}
 {{#with (lookup ../module.contents @key) as | related_rule |}}
-### [{{related_rule.name}}](/{{@../key}})
-    > {{related_rule.short_rule}}
-    {{related.relationship}}
+- *[{{related_rule.name}}](/{{@../key}})*: {{related.relationship}}
+    > {{related_rule.short_rule}}    
 {{/with}}
 {{/each}}
