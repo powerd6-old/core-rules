@@ -1,5 +1,5 @@
 type: rule
-name: "Characters"
+name: Characters
 short_rule: People, Animals, Monsters, etc. Any creature capable of taking actions is a character.
 rule: |-
   Any creature or being that is capable of taking actions is considered a character.
